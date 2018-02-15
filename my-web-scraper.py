@@ -18,3 +18,4 @@ class Scraper:
             if "html" in url:
                 print("\n"+url)
 
+Scraper("https://news.google.com/news/?ned=us&gl=US&hl=en").scrape()
